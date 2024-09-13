@@ -1,7 +1,7 @@
 
 # NoClick
 
-This is a workaround for a bug in Wear OS that plays a click sound when the screen goes off with any accessibility service enabled.
+This is a workaround for a [bug](https://issuetracker.google.com/issues/246928482?pli=1) in Wear OS that plays a click sound when the screen goes off with any accessibility service enabled.
 
 ## Installation
 
