@@ -10,7 +10,7 @@ This is a workaround for a [bug](https://issuetracker.google.com/issues/24692848
 
 ## How it works
 
-My log investigation showed that the click sound is playing between the intents DREAMING_STARTED and SCREEN_OFF. Both of these events occur when the screen is turned off, with an interval of about 1 second. This sound is played through the Media channel. Therefore, this service mutes that channel between these events.
+My log investigation showed that the click sound is playing between the intents DREAMING_STARTED and SCREEN_OFF. Both of these events occur when the screen turns off, with an interval of about 1 second. This sound is played through the Media channel. Therefore, this service mutes that channel between these events.
 
 ## License
 
